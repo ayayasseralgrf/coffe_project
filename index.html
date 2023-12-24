@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-copatible"content="IE=edge">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <ion-icon name="cafe"></ion-icon>coffee
+            <nav class="nav">
+                <a href="#">Home</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Menu</a>
+
+
+            </nav>
+        </header>
+        <section class="home">
+            <div class="content">
+                <h1> START YOUR DAY WITH COFFEE </h1>
+                <p>We Provide a variety of uniques and Best coffees</p>
+                <a href="#">Get Started</a>
+  
+            </div>
+            <div class="wrapper-login">
+                <h2>Member Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                     <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                     <input type="email" required>
+                     <label >Enter Your email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"></span>
+                        <ion-icon name="lock-closed"></ion-icon>
+                        <input type="password" required>
+                        <label >Enter Your password</label>
+                       </div>
+                       <div class="remember-forgot">
+                        <label><input type="checkbox"> Remmember me </label>
+                        <a href="#">Forgot password?</a>
+                    
+                       </div>
+                       <button type="submit" class="btn">Login</button>
+                       <div class="register-link" ></div> 
+
+
+                       <div class="box">
+                        Login
+                       </div>
+                       <button onclick="changecolor()">Login</button>
+                       <script> function changecolor(){
+                        document.querySelector('.box'). style.color ='Login';
+                       }
+                       </script>
+
+
+                       
+                </form>
+            </div>
+        </section>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-copatible"content="IE=edge">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="style.css">
+        </head>
+        <body>
+
+        <section>
+            <div class="about-img">
+                
+            <div class="about-text">
+                <h3>Our History</h3>
+                <p> 
+                  The source of our coffee is a fruit from a coffee plant<br>Coffee is a beverage prepared from roasted coffee beans<br> dark one is more better and slightly acidic<br>coffee has a stimulating effect on humans
+                </p>
+            </div>
+        </section>
+        </body>
+        </html>
+
+
+
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="x-UA-copatible"content="IE=edge">
+            <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet"href="product.css">
+        </head>
+        <body>
+            <section id="menue-list" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class ="col-md-12 text-center marb-35">
+                            <h1 class="header-h">Menue List</h1>
+                            
+                        </div>
+                        <div class="col-md-12 text-center" id="menue-flters">
+                            <ul>
+                                <li><a class="filter active" data-filter=".menu-cafe"> Show All</a></li>   
+                                <li><a class="filter " data-filter=".Hot Drinks"> Hot Drinks</a></li>
+                                <li><a class="filter " data-filter=".Cold Drinks">Cold Drinks </a></li>
+                                <li><a class="filter " data-filter=".Cake">Cake</a></li>
+        
+                            </ul>
+                        </div>
+                        <div class="menu-wrapper">
+                           <div class="Hot Drinks menu-cafe">
+                            <span class="clearfix">
+                                <a href="#" class="menu-tittle" > Espresso</a>
+                                <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                <span class="menue-price">$20.00</span>
+                            </span>
+                           </div>
+        
+                           <div class="menu-wrapper">
+                            <div class="Hot Drinks menu-cafe">
+                             <span class="clearfix">
+                                 <a href="#" class="menu-tittle" >Macchiato</a>
+                                 <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                 <span class="menue-price">$30.00</span>
+                             </span>
+                             </div>
+                            
+                             <div class="menu-wrapper">
+                                <div class="Hot Drinks menu-cafe">
+                                 <span class="clearfix">
+                                     <a href="#" class="menu-tittle" > Cappuccino</a>
+                                     <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                     <span class="menue-price">$35.00</span>
+                                 </span>
+                                 </div>
+        
+                                 <div class="menu-wrapper">
+                                    <div class="Hot Drinks menu-cafe">
+                                     <span class="clearfix">
+                                         <a href="#" class="menu-tittle" > Vanilla latte</a>
+                                         <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                         <span class="menue-price">$40.00</span>
+                                     </span>
+                                     </div>  <!--End hot drinks-->
+        
+                                      <div class="Cold Drinks menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" >Ice Tea</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$30.00</span>
+                                        </span>
+                                       </div>
+                                       
+                                       <div class="Cold Drinks menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Iced coffee</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$40.00</span>
+                                        </span>
+                                       </div>
+                                       
+                                       <div class="Cold Drinks menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Milkeshake</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$50.00</span>
+                                        </span>
+                                       </div>
+                                       
+                                       <div class="Cold Drinks menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Smoothie</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$55.00</span>
+                                        </span>
+                                       </div> <!--End cold drinks--> 
+                                       
+                                       <div class="Cake menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Honey Cake</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$30.00</span>
+                                        </span>
+                                       </div> 
+                                       
+                                       <div class="Cake menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Cinnamon Cake</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$35.00</span>
+                                        </span>
+                                       </div>
+                                       
+                                       <div class="Cake menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Chocolate Cake</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$40.00</span>
+                                        </span>
+                                       </div> 
+                                       
+                                       <div class="Cake menu-cafe">
+                                        <span class="clearfix">
+                                            <a href="#" class="menu-tittle" > Vanilla Cake</a>
+                                            <span style="left:166px; right: 44px;" class="menu-Line"></span>
+                                            <span class="menue-price">$45.00</span>
+                                        </span>
+                                       </div> <!--End cake-->
+        
+                        </div>
+                    </div>
+                </div>
+                
+        
+            </section>
+         
+        
+        
+        </body>
+        </html>
+        
+
+         
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
